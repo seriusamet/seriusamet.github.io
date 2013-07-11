@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Serius | Serius Amet]]></title>
   <link href="http://seriusamet.github.io/blog/categories/serius/atom.xml" rel="self"/>
   <link href="http://seriusamet.github.io/"/>
-  <updated>2013-07-11T15:49:30+07:00</updated>
+  <updated>2013-07-11T16:08:14+07:00</updated>
   <id>http://seriusamet.github.io/</id>
   <author>
     <name><![CDATA[Syaeful Bahri]]></name>
@@ -30,7 +30,21 @@
 
 <p>Seorang pekerja teknologi informasi tidak semata-mata harus memiliki kemampuan teknis, tetapi juga kemampuan untuk berkomunikasi. Merujuk kalimat saya di atas <code>menerjemahkan keinginan klien ke dalam hal teknis agar sesuai dengan kebutuhan klien</code>, Ada dua kata yang menjadi kunci dalam kalimat tersebut, yaitu keinginan dan kebutuhan, yang kalau mau jujur seringkali berbanding terbalik.</p>
 
-<p>Kadang kalanya keinginan klien seringkali tidak sesuai dengan kebutuhan sebenarnya, bahkan cenderung keluar dari koridor kebutuhan awalnya. Karena itu, seorang pekerja teknologi informasi harus bisa berdiskusi dengan klien untuk memberikan solusi yang terbaik agar sesuai dengan kebutuhannya tanpa terdengar menggurui. <strong>Bersambung</strong></p>
+<p>Kadang kalanya keinginan klien seringkali tidak sesuai dengan kebutuhan sebenarnya, bahkan cenderung keluar dari koridor kebutuhan awalnya. Karena itu, seorang pekerja teknologi informasi harus bisa berdiskusi dengan klien untuk memberikan solusi yang terbaik agar sesuai dengan kebutuhannya tanpa terdengar menggurui.</p>
+
+<p>Beberapa hal di bawah ini biasanya saya lakukan untuk menerapkan komunikasi yang efektif dalam pekerjaan teknologi informasi</p>
+
+<ul>
+<li>Dengarkan dengan seksama kebutuhan klien, lalu catat kebutuhan tersebut untuk di analisa lebih lanjut mengenai kebutuhannya.</li>
+<li>Buat prototype untuk memberikan gambaran kepada klien tentang kebutuhan nya tersebut apa sudah sesuai, biasanya karena masih bersifat prototype, ada beberapa hal yang mesti diperbaiki</li>
+<li>Kembali dengarkan dengan seksama pendapat klien mengenai prototype yang sudah dibuat, kemudian jika ada perubahan yang harus dilakukan catat dan analisis agar tidak keluar dari koridor kebutuhan awal klien</li>
+<li>Beri pengertian kepada klien bahwa tidak semua revisi harus diterapkan untuk memenuhi kebutuhan klien, perhatikan dengan sesama agar klien merasa tidak digurui</li>
+<li>Ajak klien untuk berdiskusi secara efektif baik melalui tatap muka, presentasi atau email. Sesekali coba untuk memulai pembicaraan di luar pekerjaan untuk memecahkan kekakuan dengan klien, tetapi perhatikan agar tidak cenderung &ldquo;sok asyik&rdquo;, hal ini bertujuan untuk mengetahui karakteristik klien untuk menerapkan bagaimana pola komunikasi yang harus anda lakukan. Tidak semua pola komunikasi bisa diterapkan ke setiap klien karena setiap klien memiliki <code>basic attitude</code> masing-masing.</li>
+<li>Buat semacam <code>self correcting</code> untuk klien dari anda sebagai bahan evaluasi kinerja anda untuk memperbaiki dan meningkatkan kinerja dan hubungan dengan klien selanjutnya.</li>
+</ul>
+
+
+<p><strong>See? Communication Is Everything? :&ndash;)</strong></p>
 ]]></content>
   </entry>
   
