@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Amet | Serius Amet]]></title>
+  <link href="http://seriusamet.github.io/blog/categories/amet/atom.xml" rel="self"/>
+  <link href="http://seriusamet.github.io/"/>
+  <updated>2013-07-11T14:39:50+07:00</updated>
+  <id>http://seriusamet.github.io/</id>
+  <author>
+    <name><![CDATA[Syaeful Bahri]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome Home - Octopress]]></title>
+    <link href="http://seriusamet.github.io/blog/2013/06/03/github/"/>
+    <updated>2013-06-03T09:07:00+07:00</updated>
+    <id>http://seriusamet.github.io/blog/2013/06/03/github</id>
+    <content type="html"><![CDATA[<p>This is note about some configuration to use Octopress Blogging Framework. Octopress didn&rsquo;t bring easy setup to use it as your daily blogging engine, but bring so much advantage that i&rsquo;m gonna tell you on this article. If you&rsquo;re comfortable or commonly use terminal command and text editor. You gonna find that you&rsquo;ll enjoyed this blogging framework to write your personal article. I&rsquo;m using OS X as operating system, i assume you won&rsquo;t meet any difference on other Linux / Unix like operating system.<!--more--></p>
+
+<p><strong>Why Octopress</strong></p>
+
+<ul>
+<li>Use <a href="http://daringfireball.net/projects/markdown/">markdown</a> as text formating.</li>
+</ul>
+
+
+<p><blockquote><p>Based on url above, Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).</p></blockquote></p>
+
+<ul>
+<li>Image, video embed and code snippets integration.</li>
+</ul>
+
+
+<p><blockquote><p>Easily to insert image, embed video and code snippets. This is probably your basic needed to write your article.</p></blockquote></p>
+
+<ul>
+<li>Static Generator.</li>
+</ul>
+
+
+<p><blockquote><p>You write your article using markdown format. Generate it in your local directory as static content and push it into your lease hosting. Yeah, i&rsquo;ve said static so there weren&rsquo;t sql query which will speed up access to your article. And for bonus, you can host your octopress article to your github account. Your article can be accessed into github subdomain (i&rsquo;m gonna explain this later)</p></blockquote></p>
+
+<p><strong>Installation</strong></p>
+
+<ul>
+<li>Octopress using ruby 1.9 later, so you must install ruby 1.9 version or later to use. Ruby 1.9 installation will use <a href="http://rvm/io">RVM</a></li>
+</ul>
+
+
+<p>```</p>
+
+<h1>Install RVM, skip this if you already have</h1>
+
+<p>\curl -L <a href="https://get.rvm.io">https://get.rvm.io</a> | bash
+```</p>
+
+<ul>
+<li>Install Ruby Using RVM</li>
+</ul>
+
+
+<p><code>
+rvm install 1.9.3
+</code></p>
+
+<ul>
+<li>Clone Octopress Repository on GitHub</li>
+</ul>
+
+
+<p><code>
+git clone git@github.com:imathis/octopress.git
+</code></p>
+
+<ul>
+<li>Then move to Octopress directory and do some various configuration to use Octopress in your local machine</li>
+</ul>
+
+
+<p><code>
+cd octopress
+gem install bundler
+bundle install
+rake generate
+</code></p>
+
+<p><strong>Host your Octopress Into Github</strong></p>
+
+<ul>
+<li><p>If you don&rsquo;t have GitHub Account, you need to create GitHub Account</p></li>
+<li><p>Configure your GitHub Account, there were some various configuration that you need to use GitHub</p></li>
+</ul>
+
+
+<p><code>
+git config --global user.name "Full Name"
+git config --global user.email "your_email@youremail.com"
+</code></p>
+
+<ul>
+<li>Creating your ssh key to access GitHub</li>
+</ul>
+
+
+<p><code>
+ssh-keygen -t rsa -C "your_email@example.com"
+</code></p>
+
+<ul>
+<li>Run the following code to copy the key to your clipboard, then copy it into your GitHub Account</li>
+</ul>
+
+
+<p><code>
+pbcopy &lt; ~/.ssh/id_rsa.pub
+</code></p>
+
+<ul>
+<li>Create new repository on GitHub and name it into something like name.github.io</li>
+</ul>
+
+
+<p><code>
+seriusamet.github.io
+</code></p>
+
+<ul>
+<li>Connecting your local Octopress directory into Github repository that you create above.</li>
+</ul>
+
+
+<p><code>
+rake setup_github_pages
+</code></p>
+
+<ul>
+<li>Go to your Octopress directory and edit <code>_config.yml</code> inside it and adjust some preference that suit your need.</li>
+<li>Try to access your Octopress by typing your Octopress GitHub Subdomain</li>
+</ul>
+
+
+<p>I use octopress based on an article that i  read on the <a href="http://software.endy.muhardin.com/">Bapak Endy Muhardin Site</a> and Monthly Gathering Held By <a href="http://linuxjak.web.id">Linux User Group Indonesia &ndash; Jakarta</a></p>
+]]></content>
+  </entry>
+  
+</feed>
